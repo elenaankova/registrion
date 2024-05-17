@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Franklin Gothic Book", sans-serif;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #537792;
+outline: none;
+}
+
+button{
+
+    padding: 10px;
+    border: unset;
+    border-bottom: #537792;
+    cursor: pointer;
+    color: white;
+    background-color: #537792;
+}
+
+a{
+    color: #537792;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0;
+}
+pp{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.msg{
+    border:  2px solid #537792;
+    border-radius:  3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.logout{
+    text-align: right;
+    color: #537792;
+}
